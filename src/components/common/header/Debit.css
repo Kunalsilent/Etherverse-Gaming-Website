@@ -5,6 +5,7 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh; 
+
     margin-left: 15%
    
     
@@ -185,7 +186,7 @@ background: linear-gradient(90deg, rgba(0,35,255,1) 0%, rgba(0,232,255,1) 25%, r
   width: 110px;
 }
 .item-img {
-  height: 50px;
+  height: 50      px;
   align-items: center;
 display: flex;
 gap: 10px;

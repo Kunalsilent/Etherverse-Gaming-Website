@@ -2,61 +2,61 @@ export const homeAbout = [
   {
     id: 1,
     cover: "./images/gam1.jpeg",
-    title: "Daily Tournament",
-    desc: "Players can participate in a multiplayer mode where they compete against each other. To enter the tournament, players must deposit $MUD tokens..",
+    title: "Gaming Delight    ",
+    desc: "Each game within our ecosystem offers an array of modes tailored for every kind of player. Harness the power of NFTs within these games, and watch your Doge Ratings (DR) soar..",
   },
   {
     id: 1,
     cover: "./images/gam2.jpeg",
-    title: "Character Customization",
-    desc: "Players can customize their MetaDoge Guardian with various skins, outfits, and accessories, allowing for personalization and unique visual styles using NFT’s.",
+    title: "The Mighty $MDU Token    ",
+    desc: "This versatile token holds the key to purchasing MetaDogeUnity game items (NFTs), shaping the MetaDogeUnity DAO, reaping rewards through $MDU staking, and enjoying premium privileges.",
   },
   {
     id: 1,
     cover: "./images/gam3.jpeg",
-    title: "Progression and Rewards",
-    desc: "As players complete missions and defeat enemies, they will earn experience points, currency, and valuable loot. These rewards can be used to unlock new weapons, upgrade abilities, and acquire cosmetic items..",
+    title: "NFT Wonderland    ",
+    desc: "Engage in NFT trading on our marketplace, categorized into avatars, weapon skins, clothing, and estates. Embrace this world where digital ownership is tangible..",
   },
   {
     id: 1,
     cover: "./images/gam4.jpeg",
-    title: "Team-based Gameplay",
-    desc: "MetaDogeUnity can feature cooperative multiplayer modes where players can team up with friends or other online players..",
+    title: "Exquisite Events    ",
+    desc: "Empower yourself to organize paid or free experiences, such as NFT exhibitions, virtual concerts, runway shows, and interactive meetings. These events become a unique canvas to paint new dimensions of engagement.    .",
   },
   {
     id: 1,
     cover: "./images/gam5.jpeg",
-    title: "Interoperability and NFTs",
-    desc: "The items obtained for customization, such as jackets and skins, will be NFTs (Non-Fungible Tokens). These NFTs will have interoperability across various games under the Polygon Blockchain Gaming Studio, including upcoming chapters of MetaDogeUnity..",
+    title: "Virtual Screen",
+    desc: "Screen owners are not just spectators but revenue generators through advertising. Capitalize on the impact of digital display and turn it into a lucrative endeavor..",
   },
   {
     id: 1,
     cover: "./images/gam6.jpeg",
-    title: "Enchanting Environment",
-    desc: "Immerse yourself in the captivating world of MetaDogeUnity, where the gameplay takes place in the Techno-City.: A bustling futuristic cityscape with towering skyscrapers, neon lights, and advanced technology..",
+    title: "Empowering Influencers and Brands",
+    desc: "Pioneering cooperative gaming, event sponsorship, virtual merchandise creation, and a universe of innovations, MetaDogeUnity holds a new era of interaction and influence",
   },
 ]
 export const awrapper = [
   {
     cover: "",
-    data: "etherverse",
-    title: "SUCCESS STORIES",
+    data: "",
+    title: "",
   },
 
   {
     cover: "",
-    data: "Users",
-    title: "TRUSTED users",
+    data: "",
+    title: "",
   },
   {
     cover: "",
-    data: "Team",
-    title: "Proffesional",
+    data: "",
+    title: "",
   },
   {
     cover: "",
-    data: "5m+",
-    title: "Gaming User",
+    data: "",
+    title: "",
   },
 ]
 export const coursesCard = [
@@ -145,7 +145,7 @@ export const team = [
 export const price = [
   {
   
-    desc: "MetaDogeUnity offered an unparalleled combat experience, combining thrilling action, strategic gameplay, and a captivating narrative. Immerse yourself in a world where deadly adversaries and advanced AI collide, as you join the MetaDoge Guardians in their fight for survival against Cyber Pack. Brace yourself for an adrenaline rush like never before, as you embark on a journey to become the ultimate champion of MetaDogeUnity..",
+    desc: "The MetaDogeUnity Pass offers a gateway to unlocking the full potential of the game. While the basic version of MetaDogeUnity is accessible without any costs, the MetaDogeUnity Pass subscription is necessary for opening additional game modes in tournaments, accessing limited NFTs, and participating in battles and events.It's an essential tool for players looking to fully experience all the exciting features and possibilities that MetaDogeUnity has to offer.",
   },
 
 ]

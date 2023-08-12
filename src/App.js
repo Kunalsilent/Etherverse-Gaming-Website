@@ -19,6 +19,7 @@ import PreLoader from "./components/PreLoader"
 
 
 
+
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
       <AboutCard />
        <Hprice />
       <HAbout /> 
+
       <Hblog />
       <Team  /> 
       <Faq/>

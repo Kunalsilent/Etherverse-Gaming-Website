@@ -6,7 +6,7 @@ const Hprice = () => {
   return (
     <>
       <section className='hprice padding'>
-        <Heading subtitle='' title='What is MetaDogeUnity ?' />
+        <Heading subtitle='' title='MetaDogeUnity Pass' />
         <div className='price container grid'>
           <PriceCard />
         </div>

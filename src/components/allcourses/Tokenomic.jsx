@@ -9,6 +9,7 @@ const Tokenomic = () => {
      
       <CoursesCard />
       <OnlineCourses />
+      <OnlineCourses/>
     </>
   )
 }

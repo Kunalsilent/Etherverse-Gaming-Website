@@ -15,7 +15,7 @@ const AboutCard = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='ETHERVERSE' title= 'GamePlay Mechanics' />
+            <Heading subtitle='Key features' title= 'MetaDogeUnity Ecosystem' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
