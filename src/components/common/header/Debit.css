@@ -25,18 +25,26 @@
   /* Card */
   
   .card {
-    width: 1000px;
-    height: 520px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    z-index: 1;
+    width: 70vw;
+    height: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #1E1F2A;
+    background: radial-gradient(circle at 100% 100%, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 0% 0%/25px 25px no-repeat,
+            radial-gradient(circle at 0 100%, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 100% 0%/25px 25px no-repeat,
+            radial-gradient(circle at 100% 0, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 0% 100%/25px 25px no-repeat,
+            radial-gradient(circle at 0 0, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 100% 100%/25px 25px no-repeat,
+            linear-gradient(#1e1f2a, #1e1f2a) 50% 50%/calc(100% - 4px) calc(100% - 50px) no-repeat,
+            linear-gradient(#1e1f2a, #1e1f2a) 50% 50%/calc(100% - 50px) calc(100% - 4px) no-repeat,
+            linear-gradient(139deg, #F74561 0%, #E39A2F 100%);
+border-radius: 25px;
+padding: 20px;
+box-sizing: border-box;
     overflow: hidden;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     position: relative;
     transition: 0.5s;
-
+display: flex;
 border-radius: 20px;
 ; /* Center both horizontally and vertically */
 
@@ -45,7 +53,18 @@ position: relative;
 overflow: hidden;
 
   }
-
+.sidess{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.side-input{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
   @keyframes borderAnimation {
     0% {
       border-image: linear-gradient(to right, red, blue);
@@ -64,7 +83,7 @@ overflow: hidden;
     right: 0;
     bottom: 0;
     border: 7px solid transparent;
-    animation: borderAnimation 1s infinite alternate; /* Play the animation */
+    /* animation: borderAnimation 1s infinite alternate; Play the animation */
   }
   .card:hover{
     background-color: rgba(0, 0, 0, 0.702);
@@ -78,24 +97,27 @@ box-shadow: 0 5px 25px 8px rgb(0 0 0 / 6%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px;
+    height: 200px;
     place-items: center;
     font-family: 'Alkatra', cursive;
 font-family: 'Quicksand', sans-serif;
     
   }
   .timer-box > div {
-    background: #ffffff;
+    background: #16161F;
     border-radius: 10px;
-    color: #000000;
-    font-size: 22px;
+    color:#fff ;
+    font-size: 5em;
     font-weight: 800;
     padding: 18px;
     text-align: center;
     width: 90%;
+    height: 80%;
   }
   .line {
     align-items: center;
-    background: #ffffff;
+    background: #16161F;
+    
     border-radius: 30px;
     display: flex;
     height: 25px;
@@ -106,14 +128,16 @@ font-family: 'Quicksand', sans-serif;
   }
 
   .line-color {
-    background: #00b5ff;
+    /* background: #00b5ff; */
+    background: rgb(0,35,255);
+background: linear-gradient(90deg, rgba(0,35,255,1) 0%, rgba(0,232,255,1) 25%, rgba(177,117,255,1) 50%, rgba(0,37,173,1) 79%, rgba(177,117,255,1) 100%);
     height: 100%;
     width: 45%;
   }
   .USDT-raised {
-    font-size: 17px;
+    font-size: 2em;
     font-weight: 400;
-    margin: 8px 0 10px;
+    margin-top: 2em;
     text-align: center;
   }
   .purchased-dr {
@@ -124,7 +148,7 @@ font-family: 'Quicksand', sans-serif;
     padding: 10px 0 9px;
     width: 80%;
     color: #c9d2d7;
-text-align: center;
+    text-align: center;
   }
   .USDT-dr {
     align-items: center;
@@ -153,9 +177,9 @@ text-align: center;
   }
 
 .itemm {
-  background: #3295f9;
+  background: rgba(177,117,255,0.5);
   border-radius: 6px;
-  height: 40px;
+
   justify-content: center;
   padding: 2px 15px 2px 8px;
   width: 110px;
@@ -230,102 +254,10 @@ input-form {
   width: 100%;
 }
 .buynow-button {
-  -webkit-tap-highlight-color: transparent;
-  all: unset;
-    background-color: unset;
-    background-image: unset;
-    background-position-x: unset;
-    background-position-y: unset;
-    background-repeat: unset;
-    background-attachment: unset;
-    background-clip: unset;
-    background-origin: unset;
-    background-size: unset;
-    border-top-color: unset;
-    border-top-style: unset;
-    border-top-width: unset;
-    border-right-color: unset;
-    border-right-style: unset;
-    border-right-width: unset;
-    border-bottom-color: unset;
-    border-bottom-style: unset;
-    border-bottom-width: unset;
-    border-left-color: unset;
-    border-left-style: unset;
-    border-left-width: unset;
-    border-top-left-radius: unset;
-    border-top-right-radius: unset;
-    border-bottom-right-radius: unset;
-    border-bottom-left-radius: unset;
-    border-image-source: unset;
-    border-image-outset: unset;
-    border-image-repeat: unset;
-    border-image-width: unset;
-    border-image-slice: unset;
-    display: unset;
-    overflow-x: unset;
-    overflow-y: unset;
-    box-shadow: unset;
-    font-family: unset;
-    font-weight: unset;
-    font-size: unset;
-    color: unset;
-    line-height: unset;
-    text-transform: unset;
-    cursor: unset;
-    margin-top: unset;
-    padding-top: unset;
-    padding-right: unset;
-    padding-bottom: unset;
-    padding-left: unset;
-    justify-content: unset;
-    align-items: unset;
-    flex-shrink: unset;
-    justify-self: unset;
-    width: unset;
-    min-width: unset;
-    height: unset;
-    box-sizing: unset;
-    transition-duration: unset;
-    transition-timing-function: unset;
-    transition-property: unset;
-    transition-delay: unset;
-    animation-name: unset;
-    animation-duration: unset;
-    animation-timing-function: unset;
-    animation-iteration-count: unset;
-    animation-direction: unset;
-    animation-play-state: unset;
-    animation-fill-mode: unset;
-    animation-delay: unset;
-    animation-timeline: ;
-  align-items: center;
-  -webkit-animation: animation-plwpox .3s ease 0s 1 normal none running;
-  animation: animation-plwpox .3s ease 0s 1 normal none running;
-  background: #3e4eff !important;
-  border: 2px solid #00b5ff !important;
-  border-radius: 8px;
-  border-radius: 10px !important;
-  box-shadow: none;
-  box-sizing: border-box;
-  color: #00b5ff !important;
-  cursor: pointer !important;
-  display: inline-flex;
-  flex-shrink: 0;
-  font-family: Work Sans !important;
-  font-size: 20px !important;
-  font-weight: 600 !important;
-  height: 50px !important;
-  justify-content: center;
-  justify-self: self-end !important;
-  line-height: 1;
-  margin-top: 1.5rem;
-  min-width: 100% !important;
-  overflow: visible;
-  padding: 12px;
-  text-transform: uppercase !important;
-  transition: all .3s !important;
-  width: 100% !important;
+  border-radius: 25px;
+  width: 80vh;
+  align-self: center;
+  margin: 0 20%;
 }
 .ETH-USDT-balance {
   color: #c9d2d7;
@@ -373,3 +305,17 @@ input-form {
   width: 100%;
 }
  }
+
+ input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
