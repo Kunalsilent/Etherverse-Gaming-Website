@@ -112,10 +112,42 @@ export const online = [
  
  
 ]
+export const gamemodes = [
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Deathmatch"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Team Deathmatch"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Control"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Battle Royal"
+   
+
+  },
+ 
+]
 export const team = [
   {
     cover: "./images/team/t1.webp",
     name: "Chief Marketing Officer",
+
     
   },
   {
@@ -145,7 +177,7 @@ export const team = [
 export const price = [
   {
   
-    desc: "MetaDogeUnity offered an unparalleled combat experience, combining thrilling action, strategic gameplay, and a captivating narrative. Immerse yourself in a world where deadly adversaries and advanced AI collide, as you join the MetaDoge Guardians in their fight for survival against Cyber Pack. Brace yourself for an adrenaline rush like never before, as you embark on a journey to become the ultimate champion of MetaDogeUnity..",
+    desc: "The MetaDogeUnity Pass offers a gateway to unlocking the full potential of the game. While the basic version of MetaDogeUnity is accessible without any costs, the MetaDogeUnity Pass subscription is necessary for opening additional game modes in tournaments, accessing limited NFTs, and participating in battles and events.It's an essential tool for players looking to fully experience all the exciting features and possibilities that MetaDogeUnity has to offer.",
   },
 
 ]

@@ -15,7 +15,7 @@ import Hprice from "./components/home/Hprice"
 import HAbout from "./components/home/HAbout"
 import { Route, Routes } from "react-router"
 import PreLoader from "./components/PreLoader"
-
+import GameModes from "./components/allcourses/GameModes"
 
 
 
@@ -30,11 +30,12 @@ function App() {
       <Hero />
       <AboutCard />
        <Hprice />
+       <GameModes/>
       <HAbout /> 
       <Hblog />
       <Team  /> 
       <Faq/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer />
      
  
