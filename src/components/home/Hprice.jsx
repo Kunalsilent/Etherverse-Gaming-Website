@@ -13,18 +13,18 @@ const Hprice = () => {
       </section>
       <section className='hprice padding'>
         <Heading subtitle='' title='MetaDogeUnity Revenue Streams' />
-        <div className='price container grid'>
+        <div className='container1 price1 '>
         <div className='items shadow'>
         <p>
           <ul>
-            <li>FT Sales and Trading Fees:</li>
-            <li>In-Game Purchases</li>
-            <li>$MDU Token Usage</li>
-            <li>Events and Ticket Sales</li>
-            <li>Advertising and Sponsorships</li>
-            <li>Land and Virtual Estate Sales</li>
-            <li>Strategic Partnerships and Licensing</li>
-            <li>Lottery Platform</li>
+            <li><b>FT Sales and Trading Fees:</b></li>
+            <li>⚪ In-Game Purchases</li>
+            <li>⚪ $MDU Token Usage</li>
+            <li>⚪ Events and Ticket Sales</li>
+            <li>⚪ Advertising and Sponsorships</li>
+            <li>⚪ Land and Virtual Estate Sales</li>
+            <li>⚪ Strategic Partnerships and Licensing</li>
+            <li>⚪ Lottery Platform</li>
           </ul>
         </p>
         </div>
