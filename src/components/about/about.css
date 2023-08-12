@@ -107,3 +107,143 @@
     height: auto;
   }
 }
+
+/* ------------------------------------------- */
+.coursesCard {
+  padding: 50px 0;
+}
+.coursesCard .items {
+  background-color: #000000;
+  padding:30px 5px;
+  text-align: center;
+  width:500px;
+  text-align: justify;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(143, 109, 205, 0.702);
+  animation: borderLight 2s infinite;
+}
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #cd3d3a;
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color:white;
+}
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #cd3d3a;
+}
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.coursesCard .details{
+  text-align: justify;
+}
+.coursesCard .details span {
+  color: grey;
+  font-weight: 500;
+  font-size: 22px;
+}
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.coursesCard h3 {
+  font-weight: 500;
+  color: #cd3d3a;
+}
+/*-------------online---------*/
+.online {
+  text-align: center;
+}
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: 0.5s;
+}
+
+.content .box{
+  margin:10px 10px;
+  background-color: black;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(143, 109, 205, 0.702);
+  animation: borderLight 2s infinite;
+}
+.online .img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+  color: white;
+}
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #cd3d3a;
+  border-radius: 5px;
+}
+.online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color:rgba(143, 109, 205, 0.702);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: #fff;
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+}
