@@ -65,10 +65,10 @@ const DebitCard = () => {
             </div>
 
             <div className='ETH-USDT-box'>
-              <div className='itemm'><div className='item-img'>   <img src="." height="30px" alt="item-1" /><span className='item-head'> ETH</span></div></div>
-              <div className='itemm'><div className='item-img'>  <img src="/static/media/ethereumIcon.0867549ef4c3c12b12a7.png" height="30px" alt="item-1" /><span className='item-head'> USDT <br />BEP20</span></div></div>
-              <div className='itemm'><div className='item-img'>   <img src="/static/media/ethereumIcon.0867549ef4c3c12b12a7.png" height="30px" alt="item-1" /><span className='item-head'>BNB</span></div></div>
-              <div className='itemm'><div className='item-img'>  <img src="/static/media/ethereumIcon.0867549ef4c3c12b12a7.png" height="30px" alt="item-1" /><span className='item-head'> Card</span></div></div>
+              <div className='itemm'><div className='item-img'>   <img src="etherum.png" height="30px" alt="item-1" /><span className='item-head'> ETH</span></div></div>
+              <div className='itemm'><div className='item-img'>  <img src="../../../../public/images/etherum.png" height="30px" alt="item-1" /><span className='item-head'> USDT <br />BEP20</span></div></div>
+              <div className='itemm'><div className='item-img'>   <img src="../../../../public/images/etherum.png" height="30px" alt="item-1" /><span className='item-head'>BNB</span></div></div>
+              <div className='itemm'><div className='item-img'>  <img src="../../../../public/images/etherum.png" height="30px" alt="item-1" /><span className='item-head'> Card</span></div></div>
             </div>
             {/* <div className='ETH-DR-payment'>
               <div class="payment-info">
