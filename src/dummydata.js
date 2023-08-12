@@ -112,10 +112,42 @@ export const online = [
  
  
 ]
+export const gamemodes = [
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Deathmatch"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Team Deathmatch"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Control"
+   
+
+  },
+  {
+    cover: "./images/etherum.png",
+    hoverCover: "./images/etherum.png",
+    courseName:"Battle Royal"
+   
+
+  },
+ 
+]
 export const team = [
   {
     cover: "./images/team/t1.webp",
     name: "Chief Marketing Officer",
+
     
   },
   {

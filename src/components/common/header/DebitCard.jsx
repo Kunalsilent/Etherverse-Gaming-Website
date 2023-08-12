@@ -45,7 +45,6 @@ const DebitCard = () => {
     <div className='debit'>
       <div className='Header-card-col col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12'>
         <div class="card">
-          <div className='card-body'>
 
             <div class="timer-box">
 
@@ -65,10 +64,13 @@ const DebitCard = () => {
             </div>
 
             <div className='ETH-USDT-box'>
+
               <div className='itemm'><div className='item-img'>   <img src="https://avatars.githubusercontent.com/u/6250754?s=200&v=4" height="30px" alt="item-1" /><span className='item-head'> ETH</span></div></div>
               <div className='itemm'><div className='item-img'>  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21TD3B4cT6KaBjN8YEmNQQzh_fcGCitDBJA&usqp=CAU" height="30px" alt="item-1" /><span className='item-head'> USDT <br />BEP20</span></div></div>
               <div className='itemm'><div className='item-img'>   <img src="https://cryptologos.cc/logos/bnb-bnb-logo.png" height="30px" alt="item-1" /><span className='item-head'>BNB</span></div></div>
               <div className='itemm'><div className='item-img'>  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAvvF9aPDzVTNPU-JOpo0znA3BdMMRDYjyJS6X_cCPH2UGHWWy5slULfa2LwjN0ed1aI4&usqp=CAU" height="30px" alt="item-1" /><span className='item-head'> Card</span></div></div>
+
+           
             </div>
             {/* <div className='ETH-DR-payment'>
               <div class="payment-info">
@@ -111,7 +113,7 @@ const DebitCard = () => {
         </div>
 
       </div>
-    </div>
+ 
   )
 }
 
