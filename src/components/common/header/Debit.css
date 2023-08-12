@@ -30,13 +30,7 @@
     height: fit-content;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background: #1E1F2A;
-    background: radial-gradient(circle at 100% 100%, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 0% 0%/25px 25px no-repeat,
-            radial-gradient(circle at 0 100%, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 100% 0%/25px 25px no-repeat,
-            radial-gradient(circle at 100% 0, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 0% 100%/25px 25px no-repeat,
-            radial-gradient(circle at 0 0, #1e1f2a 0, #1e1f2a 23px, transparent 23px) 100% 100%/25px 25px no-repeat,
-            linear-gradient(#1e1f2a, #1e1f2a) 50% 50%/calc(100% - 4px) calc(100% - 50px) no-repeat,
-            linear-gradient(#1e1f2a, #1e1f2a) 50% 50%/calc(100% - 50px) calc(100% - 4px) no-repeat,
-            linear-gradient(139deg, #F74561 0%, #E39A2F 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(91, 50, 148) 25%, rgb(170, 60, 104) 50%, rgb(34, 62, 163) 79%, rgb(0, 0, 0) 100%);
 border-radius: 25px;
 padding: 20px;
 box-sizing: border-box;
@@ -53,7 +47,9 @@ border: 2px solid transparent; /* Start with a transparent border */
 position: relative;
 overflow: hidden;
 
+
   }
+  
 .sidess{
   display: flex;
   justify-content: space-between;
@@ -105,7 +101,7 @@ font-family: 'Quicksand', sans-serif;
     
   }
   .timer-box > div {
-    background: #16161F;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(52, 140, 194) 25%, rgb(0, 0, 0) 100%);
     border-radius: 10px;
     color:#fff ;
     font-size: 5em;
@@ -117,7 +113,7 @@ font-family: 'Quicksand', sans-serif;
   }
   .line {
     align-items: center;
-    background: #16161F;
+    background: #ffffff;
     
     border-radius: 30px;
     display: flex;
@@ -131,7 +127,7 @@ font-family: 'Quicksand', sans-serif;
   .line-color {
     /* background: #00b5ff; */
     background: rgb(0,35,255);
-background: linear-gradient(90deg, rgba(0,35,255,1) 0%, rgba(0,232,255,1) 25%, rgba(177,117,255,1) 50%, rgba(0,37,173,1) 79%, rgba(177,117,255,1) 100%);
+background: linear-gradient(90deg, rgb(147, 77, 239) 0%, rgba(0,232,255,1) 25%, rgba(177,117,255,1) 50%, rgba(0,37,173,1) 79%, rgba(177,117,255,1) 100%);
     height: 100%;
     width: 45%;
   }
@@ -259,6 +255,7 @@ input-form {
   width: 80vh;
   align-self: center;
   margin: 0 20%;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,232,255,1) 25%, rgb(0, 0, 0) 100%);
 }
 .ETH-USDT-balance {
   color: #c9d2d7;

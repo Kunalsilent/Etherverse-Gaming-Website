@@ -1,67 +1,98 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
-import Head from "./Head"
+import React, { useState } from "react";
 import "./header.css"
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-import DebitCard from "./DebitCard"
+import { NavLink } from "react-router-dom";
+import DebitCard from "./DebitCard";
 
-
-
-
-
-
-
-
-const Header = () => {
-  const [click, setClick] = useState(false)
-
-
-  
-
+const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
-      <Head />
-      <header className="fix"> 
-        <nav className='flexSB'>
-          <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
+      <nav className="main-nav">
+        {/* 1st logo part  */}
+        <div className="logo">
+          <h2>
+            <span>E</span>therverse
+            <span>G</span>aming
+          </h2>
+        </div>
+
+        {/* 2nd menu part  */}
+        <div
+          className={
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
+          }>
+          <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to='hero'>About</Link>
-            </li>
-         
-            <li>
-              <Link to='tokenomics'>Tokenomics</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <Link to='Hblog'>Timeline</Link>
+              <NavLink to="/service">Tokenomics</NavLink>
             </li>
             <li>
-              <Link to='Team'>Team</Link>
+              <NavLink to="/contact">Team</NavLink>
             </li>
             <li>
-              <Link to='/faqs'>FAQs</Link>
+              <NavLink to="/contact">FAQs</NavLink>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
-   
-         
-       
-        
-        
-        
-      
-      
-        </nav>  
-        
-      </header>
-    <DebitCard/>
-    
-    </>
-  )
-}
+        </div>
 
-export default Header
+        {/* 3rd social media links */}
+        <div className="social-media">
+          <ul className="social-media-desktop">
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                target="_thapa">
+                <FaFacebookSquare className="facebook" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/thapatechnical/"
+                target="_thapa">
+                <FaInstagramSquare className="instagram" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                target="_thapa">
+                <FaYoutubeSquare className="youtube" />
+              </a>
+            </li>
+          </ul>
+
+          {/* hamburget menu start  */}
+          <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <GiHamburgerMenu />
+            </a>
+          </div>
+        </div>
+      </nav>
+      <DebitCard/>
+
+      {/* hero section  */}
+      {/* <section className="hero-section">
+        <p>Welcome to </p>
+        <h1>Thapa Technical</h1>
+      </section> */}
+    </>
+  );
+};
+
+export default Navbar;

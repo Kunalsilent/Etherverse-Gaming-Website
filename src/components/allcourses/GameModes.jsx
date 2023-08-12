@@ -15,8 +15,8 @@ const GameModes = () => {
             {gamemodes.map((val) => (
               <div className='box'>
                 <div className='img'>
-                  <img src={val.cover} />
-                  <img src={val.hoverCover} alt='' className='show' />
+           
+                  <img src="" alt='' className='show' />
                 </div>
                 <h1>{val.courseName}</h1>
              
