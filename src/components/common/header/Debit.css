@@ -1,63 +1,375 @@
-.flip-card {
-    background-color: transparent;
-    width: 400px;
-    height: 300px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    border: 3px solid transparent;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(143, 109, 205, 0.702);
-    animation: borderLight 2s infinite;
-  
-  }
+
   .debit{
+ 
     display: flex;
-    justify-content: flex-start; /* Align the card to the left side */
-    margin-left: 1100px; 
-    margin-top: 300px;/* Adjust the margin as needed */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+    margin-left: 15%
+   
     
   }
-  .flip-card-front{
-    background-image: url('/public/images/img_avatar.png');
-    width:300px;height:300px;
-  }
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
+  
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Quicksand:wght@300;700&display=swap');
+
+  
+ 
+
+  
+  /* Background Circle*/
+  
+
+
+  
+  /* Card */
+  
+  .card {
+    width: 1000px;
+    height: 520px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color:rgba(143, 109, 205, 0.702);
-    color: white;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    transition: 0.5s;
+
+border-radius: 20px;
+; /* Center both horizontally and vertically */
+
+border: 2px solid transparent; /* Start with a transparent border */
+position: relative;
+overflow: hidden;
 
   }
+
+  @keyframes borderAnimation {
+    0% {
+      border-image: linear-gradient(to right, red, blue);
+      border-image-slice: 1;
+    }
+    100% {
+      border-image: linear-gradient(to right, blue, red);
+      border-image-slice: 1;
+    }
+  }
+  .card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 7px solid transparent;
+    animation: borderAnimation 1s infinite alternate; /* Play the animation */
+  }
+  .card:hover{
+    background-color: rgba(0, 0, 0, 0.702);
+color: #fff;
+cursor: pointer;
+box-shadow: 0 5px 25px 8px rgb(0 0 0 / 6%);
+  }
+  
+ 
+  .timer-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    place-items: center;
+    font-family: 'Alkatra', cursive;
+font-family: 'Quicksand', sans-serif;
+    
+  }
+  .timer-box > div {
+    background: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 18px;
+    text-align: center;
+    width: 90%;
+  }
+  .line {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    margin: 15px 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .line-color {
+    background: #00b5ff;
+    height: 100%;
+    width: 45%;
+  }
+  .USDT-raised {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 0 10px;
+    text-align: center;
+  }
+  .purchased-dr {
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: auto;
+    padding: 10px 0 9px;
+    width: 80%;
+    color: #c9d2d7;
+text-align: center;
+  }
+  .USDT-dr {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 1rem;
+    margin: .2rem 0 .5rem;
+    white-space: nowrap;
+  }
+  .USDT-dr-text {
+    color: #c9d2d7;
+    font-family: Work Sans;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    
+  }
+  .ETH-USDT-box {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    padding: 10px 0 15px;
+  }
+
+.itemm {
+  background: #3295f9;
+  border-radius: 6px;
+  height: 40px;
+  justify-content: center;
+  padding: 2px 15px 2px 8px;
+  width: 110px;
+}
+.item-img {
+  height: 50px;
+  align-items: center;
+display: flex;
+gap: 10px;
+}
+.item-head {
+  font-family: Courier New,Courier,monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ETH-DR-payment {
+  grid-gap: 1rem;
+  border-top: 1px solid #00b5ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10px;
+}
+.payment-info {
+  grid-gap: 10px;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.payment-info-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.payment-info-top-text {
+  color: #00d0ff;
+  font-family: Rajdhani,sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+.payment-info-bottom {
+  background: #3f9fff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.payment-info-logo {
+  bottom: 5px;
+  font-family: Barlow-medium;
+  font-size: 18px;
+  font-weight: 100;
+  right: 5px;
+  top: 5px;
+}
+.payment-info-input {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+input-form {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 20px 10px;
+  width: 100%;
+}
+.buynow-button {
+  -webkit-tap-highlight-color: transparent;
+  all: unset;
+    background-color: unset;
+    background-image: unset;
+    background-position-x: unset;
+    background-position-y: unset;
+    background-repeat: unset;
+    background-attachment: unset;
+    background-clip: unset;
+    background-origin: unset;
+    background-size: unset;
+    border-top-color: unset;
+    border-top-style: unset;
+    border-top-width: unset;
+    border-right-color: unset;
+    border-right-style: unset;
+    border-right-width: unset;
+    border-bottom-color: unset;
+    border-bottom-style: unset;
+    border-bottom-width: unset;
+    border-left-color: unset;
+    border-left-style: unset;
+    border-left-width: unset;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+    border-image-source: unset;
+    border-image-outset: unset;
+    border-image-repeat: unset;
+    border-image-width: unset;
+    border-image-slice: unset;
+    display: unset;
+    overflow-x: unset;
+    overflow-y: unset;
+    box-shadow: unset;
+    font-family: unset;
+    font-weight: unset;
+    font-size: unset;
+    color: unset;
+    line-height: unset;
+    text-transform: unset;
+    cursor: unset;
+    margin-top: unset;
+    padding-top: unset;
+    padding-right: unset;
+    padding-bottom: unset;
+    padding-left: unset;
+    justify-content: unset;
+    align-items: unset;
+    flex-shrink: unset;
+    justify-self: unset;
+    width: unset;
+    min-width: unset;
+    height: unset;
+    box-sizing: unset;
+    transition-duration: unset;
+    transition-timing-function: unset;
+    transition-property: unset;
+    transition-delay: unset;
+    animation-name: unset;
+    animation-duration: unset;
+    animation-timing-function: unset;
+    animation-iteration-count: unset;
+    animation-direction: unset;
+    animation-play-state: unset;
+    animation-fill-mode: unset;
+    animation-delay: unset;
+    animation-timeline: ;
+  align-items: center;
+  -webkit-animation: animation-plwpox .3s ease 0s 1 normal none running;
+  animation: animation-plwpox .3s ease 0s 1 normal none running;
+  background: #3e4eff !important;
+  border: 2px solid #00b5ff !important;
+  border-radius: 8px;
+  border-radius: 10px !important;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #00b5ff !important;
+  cursor: pointer !important;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: Work Sans !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  justify-content: center;
+  justify-self: self-end !important;
+  line-height: 1;
+  margin-top: 1.5rem;
+  min-width: 100% !important;
+  overflow: visible;
+  padding: 12px;
+  text-transform: uppercase !important;
+  transition: all .3s !important;
+  width: 100% !important;
+}
+.ETH-USDT-balance {
+  color: #c9d2d7;
+  font-family: Work Sans;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+}
+.card-body {
+  color: var(--bs-card-color);
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+@media screen and (max-width: 991.9px) {
+  .timer-box > div {
+    font-size: 15px;
+  }
+  .USDT-raised {
+    font-size: 15px;
+  }
+  .card {
+    width: 100% !important;
+  
+}
+.Header-card-col {
+  padding-bottom: 2rem;
+}
+
+}
+@media screen and (max-width: 991.9px){
+.row > * {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  width: 100%;
+}
+}
+ @media (min-width: 576px){
+.col-sm-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+ }

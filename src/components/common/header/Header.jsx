@@ -2,37 +2,43 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import Head from "./Head"
 import "./header.css"
+
 import DebitCard from "./DebitCard"
+
+
+
+
+
+
 
 
 const Header = () => {
   const [click, setClick] = useState(false)
+
 
   
 
   return (
     <>
       <Head />
-      <header className="fix">
+      <header className="fix"> 
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/About'>About</Link>
+              <Link to='hero'>About</Link>
+            </li>
+         
+            <li>
+              <Link to='tokenomics'>Tokenomics</Link>
             </li>
             <li>
-              <Link to='/staking'>Staking</Link>
+              <Link to='Hblog'>Timeline</Link>
             </li>
             <li>
-              <Link to='/tokenomics'>Tokenomics</Link>
-            </li>
-            <li>
-              <Link to='/team'>Team</Link>
-            </li>
-            <li>
-              <Link to='/roadmap'>Roadmap</Link>
+              <Link to='Team'>Team</Link>
             </li>
             <li>
               <Link to='/faqs'>FAQs</Link>
@@ -41,17 +47,19 @@ const Header = () => {
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>
-          <div className='start'>
-            <div className='button'>Connect Wallet</div>
-          </div>
+   
+         
+       
+        
+        
+        
       
-          <button className='toggle' onClick={() => setClick(!click)}>
-            {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
-          </button>
-        </nav>
+      
+        </nav>  
         
       </header>
     <DebitCard/>
+    
     </>
   )
 }

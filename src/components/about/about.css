@@ -44,12 +44,15 @@
     box-shadow: 0 0 20px rgba(143, 109, 205, 0.702), 0 0 50px rgba(143, 109, 205, 0.702);
   }
 }
+
 .aboutHome .img {
   width: 200px;
 }
 .aboutHome img {
   width: 70px;
   height: 70px;
+  
+
 }
 .aboutHome .item h2 {
   font-size: 20px;
@@ -98,6 +101,7 @@
   }
   .aboutHome .row {
     width: 100%;
+    
   }
   .awrapper {
     height: auto;

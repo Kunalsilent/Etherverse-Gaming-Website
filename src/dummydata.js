@@ -88,25 +88,25 @@ export const online = [
   {
     cover: "./images/etherum.png",
     hoverCover: "./images/etherum.png",
-    courseName: "ethereum",
+   
 
   },
   {
     cover: "./images/binance.jpeg",
     hoverCover: "",
-    courseName: "Binance",
+  
  
   },
   {
     cover: "./images/meta.png",
     hoverCover: "",
-    courseName: "Metamask",
+   
  
   },
   {
     cover: "./images/poly.png",
     hoverCover: "",
-    courseName: "Ploygon",
+ 
  
   },
  
@@ -115,45 +115,33 @@ export const online = [
 export const team = [
   {
     cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    name: "Chief Marketing Officer",
+    
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t1.webp",
+    name: "Chief Marketing Officer",
+    
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t1.webp",
+    name: "Chief Marketing Officer",
+    
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t1.webp",
+    name: "Chief Marketing Officer",
+    
   },
 ]
+  export const navbar =[
+    {
+      logo: "./images/logo.jpg",
+    },
+  ]
+ 
+
+
 export const price = [
   {
   

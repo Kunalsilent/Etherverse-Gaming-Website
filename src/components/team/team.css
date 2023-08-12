@@ -65,5 +65,10 @@ background: linear-gradient(to right, #f32170,
 text-align: center;
  
 }
+.items shadow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
