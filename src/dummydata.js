@@ -95,6 +95,47 @@ export const coursesCard = [
   },
 
 ]
+export const coursesCard2 = [
+  {
+    id: 1,
+    cover: "",
+    coursesName: "Dynamic and Adaptive Gameplay:",
+    des:"AI can analyze player behavior in real-time, adjusting the game's difficulty, challenges, and objectives based on individual player skills and preferences. This ensures a personalized experience, making the game engaging for both novice and expert players."
+ 
+  },
+  {
+    id: 2,
+    cover: "",
+    coursesName: "NPC Behavior:",
+    des:"AI-driven Non-Playable Characters (NPCs) can exhibit more realistic and intelligent behavior, creating a more immersive world. NPCs can adapt to the player's actions, making encounters feel dynamic and offering various ways to interact with the game environment.    "
+  },
+
+  {
+    id: 2,
+    cover: "",
+    coursesName: "Natural Language Processing:",
+    des:"Implementing AI-powered natural language processing can enable more realistic and interactive dialogues with NPCs, making the narrative richer.    "
+  },
+
+  {
+    id: 2,
+    cover: "",
+    coursesName: "Anti-Cheating Measures:",
+    des:"AI algorithms can detect and combat cheating and exploits, ensuring fair play and maintaining a competitive and balanced gaming environment"
+  },
+
+  // {
+  //   id: 2,
+  //   cover: "",
+  //   coursesName: "",
+  //   des:"."
+  // },
+
+
+
+
+
+]
 export const online = [
   {
     cover: "./images/etherum.png",
@@ -186,6 +227,13 @@ export const team = [
 
 
 export const price = [
+  {
+  
+    desc: "The big gap between GameFi and AAA games is due to the fact that most GameFi games use a Play-to-Earn (P2E) model that focuses more on earnings and does not pay due attention to important game aspects, such as gameplay, playability, graphics quality, mechanics, and others. MetaDogeUnity aims to solve this problem and become the World’s first game that will be truly interesting to the gamers.This will be achieved by bringing together the latest AI technologie from both GameFi and AAA worlds, using an innovative Play-and-Earn (PAE) model that puts gaming experience ahead of earnings.",
+  },
+
+]
+export const big  = [
   {
   
     desc: "The MetaDogeUnity Pass offers a gateway to unlocking the full potential of the game. While the basic version of MetaDogeUnity is accessible without any costs, the MetaDogeUnity Pass subscription is necessary for opening additional game modes in tournaments, accessing limited NFTs, and participating in battles and events.It's an essential tool for players looking to fully experience all the exciting features and possibilities that MetaDogeUnity has to offer.",
