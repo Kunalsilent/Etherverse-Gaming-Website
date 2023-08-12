@@ -6,7 +6,7 @@ import Team from "./components/team/Team"
 import Footer from "./components/common/footer/Footer"
 
 import Faq from "./components/pricing/Faq"
-import Contact from "./components/contact/Contact";
+
 import Hblog from "./components/home/Hblog"
 import Hero from "./components/home/hero/Hero"
 import Particle from "./components/ParticlesBackground"
@@ -34,7 +34,7 @@ function App() {
       <Hblog />
       <Team  /> 
       <Faq/>
-      <Contact/>
+    
       <Footer />
      
  
