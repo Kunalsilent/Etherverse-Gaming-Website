@@ -63,10 +63,10 @@ export const coursesCard = [
   {
     id: 1,
     cover: "",
-    coursesName: "In-game marketplace",
+    coursesName: "$MDU Tokenomics",
     courTeacher: [
       {
-        totalTime: "Players can use $MDU Tokens to purchase in-game diamonds which can be used to participate in Multiplayer Mode. The winner will be rewarded with $MDU tokens which can be traded in CEX and DEX.",
+        totalTime: "$MDU is a native deflationary cryptocurrency and governance token of the MetaDogeUnity ecosystem. The integrated Play-and-earn solutions maintain a constant demand for the $MDU, which continuously stimulates the growth of its value.",
       },
     ],
  
@@ -74,10 +74,21 @@ export const coursesCard = [
   {
     id: 1,
     cover: "",
-    coursesName: "Staking",
+    coursesName: "Features",
     courTeacher: [
       {
-        totalTime: "Players can stake their $MDU tokens to receive weekly rewards , early access to upcoming chapters in MetaDogeUnity , access to the premium content , priority access to customer service,eligible for exclusive Non-Fungible Token (NFT) and airdrops.",
+        totalTime: ">>Purchase of Game Items (NFTs) >>Governance of MetaDogeUnity DAO>> Staking $MDU  >>Premium Privileges  >>Rewards in GameFi",
+      },
+    ],
+ 
+  },
+  {
+    id: 1,
+    cover: "",
+    coursesName: "Token Information",
+    courTeacher: [
+      {
+        totalTime: "Purchase of Game Items (NFTs)\nPurchase of Game Items (NFTs)\n Blockchain Network : Polygon Mainnet\nNew Tokens will not be issued",
       },
     ],
  
@@ -175,6 +186,13 @@ export const team = [
 
 
 export const price = [
+  {
+  
+    desc: "The MetaDogeUnity Pass offers a gateway to unlocking the full potential of the game. While the basic version of MetaDogeUnity is accessible without any costs, the MetaDogeUnity Pass subscription is necessary for opening additional game modes in tournaments, accessing limited NFTs, and participating in battles and events.It's an essential tool for players looking to fully experience all the exciting features and possibilities that MetaDogeUnity has to offer.",
+  },
+
+]
+export const revenue = [
   {
   
     desc: "The MetaDogeUnity Pass offers a gateway to unlocking the full potential of the game. While the basic version of MetaDogeUnity is accessible without any costs, the MetaDogeUnity Pass subscription is necessary for opening additional game modes in tournaments, accessing limited NFTs, and participating in battles and events.It's an essential tool for players looking to fully experience all the exciting features and possibilities that MetaDogeUnity has to offer.",

@@ -8,10 +8,11 @@ const CoursesCard = () => {
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
+
             <div className='items'>
-              <div className='content flex'>
+             <li><div className='content flex'></div></li> 
             
-              </div>
+              
            
             
             </div>
