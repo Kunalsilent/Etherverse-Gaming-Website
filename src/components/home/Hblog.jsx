@@ -8,7 +8,7 @@ const Hblog = () => {
     <>
  
       <div className='main'>
-        <h3 className='head'>Timeline</h3>
+        <h3 className='head'>Roadmap</h3>
         <div className='contain'>
           <ul>
             <li>

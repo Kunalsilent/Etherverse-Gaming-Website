@@ -103,8 +103,8 @@ li {
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
   transition: 0.5s;
-  font-size: 28px;
-  font-weight: 6px;
+  font-size: 22px;
+  font-weight: 10px;
 }
 .menu-link ul li:hover > a {
   transform-origin: left;
@@ -153,7 +153,9 @@ li {
   text-transform: uppercase;
   text-align: center;
 }
-
+.logo img {
+  height: 50px; /* Adjust the height as needed */
+}
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
@@ -210,7 +212,9 @@ li {
     flex-direction: column;
     align-items: start;
   }
-
+.item shadow{
+  color: gray;
+}
   .mobile-menu-link ul li:first-child {
     transition-delay: 0.2s;
   }
@@ -263,6 +267,12 @@ li {
     display: block;
     font-size: 2.5rem;
   }
+}
+.logo img {
+  width: 240px; /* Adjust this value to increase the width of the logo */
+  height:250px; /* This maintains the aspect ratio */
+  padding-bottom: 120px !important;
+
 }
 
 @media (max-width: 520px) {

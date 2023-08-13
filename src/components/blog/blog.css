@@ -128,10 +128,13 @@ ul li p {
 	margin: 6px 0 4px 0;
 }
 ul li a {
-	font-size: 13px;
+	font-size: 35px;
 	text-decoration: none;
 	color: #9e24f0;
 	transition: all 0.3s ease;
+}
+ul li a:hover{
+color: #ae38c6;
 }
 
 

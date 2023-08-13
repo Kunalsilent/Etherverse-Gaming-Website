@@ -1,7 +1,7 @@
 import React from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
-import SocialMediaIcons from '../SocialMediaIcons';
+
 
 
 function Hero ()  {
@@ -10,7 +10,7 @@ function Hero ()  {
       <section className='hero'>
  
  
-        <SocialMediaIcons />
+       
       </section>
       <div className='margin'></div>
     </>

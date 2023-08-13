@@ -14,6 +14,7 @@ import Hprice from "./components/home/Hprice"
 import HAbout from "./components/home/HAbout"
 import { Route, Routes } from "react-router"
 import PreLoader from "./components/PreLoader"
+import { Element } from 'react-scroll';
 import GameModes from "./components/allcourses/GameModes"
 
 
@@ -24,18 +25,18 @@ function App() {
     <>
    
   <PreLoader/>
-      <Header />
+      <Element name="/"><Header /></Element>
       <Particle/>
       
       <Hero />
-      <AboutCard />
+      <Element name="about"><AboutCard /></Element>
        <Hprice />
-       <GameModes/>
+      <Element name="tokenomics"><GameModes/></Element> 
       <HAbout /> 
 
-      <Hblog />
-      <Team  /> 
-      <Faq/>
+      <Element name="hblog"><Hblog /></Element>
+      <Element name="team"><Team  /> </Element>
+      <Element name="faqs"><Faq/></Element>
       {/* <Contact/> */}
       <Footer />
      

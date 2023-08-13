@@ -114,8 +114,13 @@ button:hover {
 p {
   line-height: 30px;
   font-size: 18px;
-  color: white;
+ 
+  color: grey;
+margin: 40px 0;
+text-align: justify;
+font-size: 25px;
 }
+
 
 .back {
   background-image: url("../public/images/back.webp");

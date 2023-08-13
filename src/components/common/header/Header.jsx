@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 import "./header.css"
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
+import "../footer/footer.css"
 import { GiHamburgerMenu } from "react-icons/gi";
 
-import { NavLink } from "react-router-dom";
+
 import DebitCard from "./DebitCard";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const logo = '/logo.png';
   return (
     <>
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <h2>
-            <span>E</span>therverse
-            <span>G</span>aming
-          </h2>
+     
+       
+          <img src={logo}/>
+         
+          
         </div>
 
         {/* 2nd menu part  */}
@@ -30,23 +29,25 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="/"  smooth={true} duration={500}>Home</Link>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <Link to="about" smooth={true} duration={500}>About</Link>
             </li>
             <li>
-              <NavLink to="/service">Tokenomics</NavLink>
+              <Link to="tokenomics" smooth={true} duration={500}>Tokenomics</Link>  
+             
+            </li>
+             <li>
+              <Link to="hblog" smooth={true} duration={500}>Roadmap</Link>
             </li>
             <li>
-              <NavLink to="/contact">Team</NavLink>
+              <Link to="team" smooth={true} duration={500}>Team</Link>
             </li>
             <li>
-              <NavLink to="/contact">FAQs</NavLink>
+              <Link to="faqs" smooth={true} duration={500}>FAQs</Link>
             </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
+          
           </ul>
         </div>
 
@@ -54,26 +55,26 @@ const Navbar = () => {
         <div className="social-media">
           <ul className="social-media-desktop">
             <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaFacebookSquare className="facebook" />
-              </a>
+              
+                <a href="https://www.instagram.com/metadogeunity/"><i className="fab fa-instagram"></i></a>
+             
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
-                <FaInstagramSquare className="instagram" />
-              </a>
+            
+              
+              <a href="https://twitter.com/MetaDogeUnity"><i className="fab fa-twitter"></i></a>
+             
             </li>
             <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaYoutubeSquare className="youtube" />
-              </a>
+            
+               
+               
+                <a href="https://discord.gg/bz5nN247pb"><i className="fab fa-discord"></i></a>
+         
+         
+            
             </li>
+            
           </ul>
 
           {/* hamburget menu start  */}

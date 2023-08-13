@@ -11,10 +11,11 @@ const TeamCard = () => {
           <div className='img'>
             <img src={val.cover} alt='' />
             <div className='overlay'>
-              <i className='fab fa-facebook-f icon'></i>
-              <a href="https://twitter.com/ubongekanem222"  target="_blank" rel="noopener noreferrer"><i className='fab fa-twitter icon'></i></a>
+           
+              <a href={val.inst} target="_blank" rel="noopener noreferrer"><i className='fab fa-instagram icon'></i></a>
+              <a href={val.twitter}  target="_blank" rel="noopener noreferrer"><i className='fab fa-twitter icon'></i></a>
               
-              <i className='fab fa-instagram icon'></i>
+         
             
             </div>
           </div>

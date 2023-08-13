@@ -10,15 +10,15 @@ const GameModes = () => {
    
       <section className='online'> 
         <div className='container'>
-          <Heading subtitle='Game' title='Game Modes' />
+          <Heading subtitle='' title='Game Modes' />
           <div className='content grid'>
             {gamemodes.map((val) => (
-              <div className='box'>
-                <div className='img'>
-           
-                  <img src="" alt='' className='show' />
-                </div>
-                <h1>{val.courseName}</h1>
+              <div className='box'><h1>{val.courseName}</h1>
+              <img src={val.cover} />
+              
+                            
+             
+             
              
               </div>
             ))}

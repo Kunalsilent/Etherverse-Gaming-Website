@@ -33,6 +33,15 @@
   animation: borderLight 2s infinite;
   
 }
+.help{
+  font-size: 25px;
+margin-bottom: 15px;
+color: white;
+background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  background-clip: border-box;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
 
 @keyframes borderLight {
   0%, 100% {
@@ -41,10 +50,40 @@
   }
   50% {
     border-color: rgba(134, 134, 232, 0.5);
-    box-shadow: 0 0 20px rgba(143, 109, 205, 0.702), 0 0 50px rgba(143, 109, 205, 0.702);
+    box-shadow: 0 0 20px rgba(94, 72, 136, 0.702), 0 0 50px rgba(143, 109, 205, 0.702);
   }
 }
 
+.white{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.white-button{
+  border-radius: 25px;
+  width: 80vh;
+  align-self: center; font-size: 26px;
+  margin: 0 20%;
+  background: linear-gradient(90deg, rgb(218, 133, 7) 0%, rgb(171, 69, 112) 25%, rgb(228, 41, 212) 100%);
+}
+
+.a{
+  display: flex;
+}
+.heading-animation {
+  font-size: 24px;
+  animation: circularMotion 10s linear infinite;
+}
+
+@keyframes circularMotion {
+  0% {
+    transform: translateX(1px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(700px) rotate(360deg);
+  }
+}
 .aboutHome .img {
   width: 200px;
 }
@@ -246,4 +285,10 @@
 }
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .white-button {
+    font-size: 14px; /* Adjust font size as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
 }

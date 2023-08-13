@@ -5,13 +5,18 @@ import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
 import { price } from "../../dummydata"
 import { coursesCard2 } from "../../dummydata"
+import White from "./White"
+
 
 
 
 const AboutCard = () => {
-  return (
-    <><section className='hprice padding'>
-    <Heading subtitle='' title='THE HEADING [soon]' />
+  return ( 
+    <>
+   <White />
+    <section className='hprice padding'>
+ 
+    <Heading subtitle='' title='MetaDoge Unity' />
     <div className='price container grid'>
     {price.map((val) => (
         <div className='items shadow'>
@@ -19,12 +24,13 @@ const AboutCard = () => {
         </div>
       ))}
     </div>
+  
     <section className='coursesCard'>
         <div className='container grid3'>
           {coursesCard2.map((val) => (
 
             <div className='items'>
-              <h2>{val.coursesName}</h2>
+              <h2 className="help">{val.coursesName}</h2>
               <br/>
              <li><div className='content flex'>
               <p>{val.des}</p>
@@ -42,7 +48,7 @@ const AboutCard = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='Key features' title= 'MetaDogeUnity Ecosystem' />
+            <Heading subtitle='' title= 'Key features' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (

@@ -17,7 +17,7 @@ const Hprice = () => {
         <div className='items shadow'>
         <p>
           <ul>
-            <li><b>FT Sales and Trading Fees:</b></li>
+            <li>⚪ NFT Sales and Trading Fees</li>
             <li>⚪ In-Game Purchases</li>
             <li>⚪ $MDU Token Usage</li>
             <li>⚪ Events and Ticket Sales</li>

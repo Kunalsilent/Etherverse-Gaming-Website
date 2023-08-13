@@ -9,7 +9,7 @@ const HAbout = () => {
     <>
       <section className='homeAbout'>
         <div className='container'>
-          <Heading subtitle='game' title='Tokenomics' />
+          <Heading subtitle='' title='Tokenomics' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
@@ -25,7 +25,8 @@ const HAbout = () => {
                       <div className='details'>
                         {val.courTeacher.map((details) => (
                           <>
-                            <span>{details.totalTime}</span>
+                            <span>
+                            <p>{details.totalTime}</p></span>
                           </>
                         ))}
                       </div>

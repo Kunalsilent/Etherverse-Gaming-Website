@@ -66,7 +66,7 @@ export const coursesCard = [
     coursesName: "$MDU Tokenomics",
     courTeacher: [
       {
-        totalTime: "$MDU is a native deflationary cryptocurrency and governance token of the MetaDogeUnity ecosystem. The integrated Play-and-earn solutions maintain a constant demand for the $MDU, which continuously stimulates the growth of its value.",
+        totalTime: "$MDU is a native deflationary cryptocurrency and governance token of the MetaDogeUnity ecosystem.The integrated Play-and-earn solutions maintain a constant demand for the $MDU, which continuously stimulates the growth of its value.",
       },
     ],
  
@@ -77,8 +77,21 @@ export const coursesCard = [
     coursesName: "Features",
     courTeacher: [
       {
-        totalTime: ">>Purchase of Game Items (NFTs) >>Governance of MetaDogeUnity DAO>> Staking $MDU  >>Premium Privileges  >>Rewards in GameFi",
+        totalTime: "➡ Purchase of Game Items (NFTs)",
       },
+      {
+        totalTime: " ➡Governance of MetaDogeUnity DAO ",
+      },
+      {
+        totalTime: "➡ Staking $MDU ",
+      },
+      {
+        totalTime: "➡ Premium Privileges ",
+      },
+      {
+        totalTime: "➡ Rewards in GameFi",
+      },
+     
     ],
  
   },
@@ -88,8 +101,15 @@ export const coursesCard = [
     coursesName: "Token Information",
     courTeacher: [
       {
-        totalTime: "Purchase of Game Items (NFTs)\nPurchase of Game Items (NFTs)\n Blockchain Network : Polygon Mainnet\nNew Tokens will not be issued",
+        totalTime: "➡ Purchase of Game Items (NFTs)",
       },
+      {
+        totalTime: "➡ Blockchain Network : Polygon Mainnet",
+      },
+      {
+        totalTime: "➡ New Tokens will not be issued",
+      },
+     
     ],
  
   },
@@ -136,28 +156,33 @@ export const coursesCard2 = [
 
 
 ]
+export const log =[
+  {
+    loge:"./images/binance.jpeg",
+  },
+]
 export const online = [
   {
-    cover: "./images/etherum.png",
+    cover: "https://i.pinimg.com/736x/fd/16/25/fd16259840bd8fda8251a4239750d8d8.jpg",
     hoverCover: "./images/etherum.png",
    
 
   },
   {
-    cover: "./images/binance.jpeg",
-    hoverCover: "",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Binance-coin-bnb-logo.png",
+    hoverCover: "./images/binance.jpeg",
   
  
   },
   {
-    cover: "./images/meta.png",
-    hoverCover: "",
+    cover: "https://metadogeunity782.vercel.app/static/media/metamask.ce64f793592fecd78e7c.png",
+    hoverCover: "./images/meta.png",
    
  
   },
   {
-    cover: "./images/poly.png",
-    hoverCover: "",
+    cover: "https://metadogeunity782.vercel.app/static/media/Polygon-Logo.97ff139cc7379a42cf141d74a6595fff.svg",
+    hoverCover: "./images/poly.png",
  
  
   },
@@ -166,29 +191,29 @@ export const online = [
 ]
 export const gamemodes = [
   {
-    cover: "./images/etherum.png",
-    hoverCover: "./images/etherum.png",
+    cover: "https://i.ytimg.com/vi/sXpiUJzkPGM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCZxID4BJW6YOvlXsvxVODKpoyUmw",
+    hoverCover: "./images/about.webp",
     courseName:"Deathmatch"
    
 
   },
   {
-    cover: "./images/etherum.png",
-    hoverCover: "./images/etherum.png",
+    cover: "https://i.gadgets360cdn.com/large/valorant_team_deathmatch_release_date_1686918327478.jpg",
+    hoverCover: "./images/about.webp",
     courseName:"Team Deathmatch"
    
 
   },
   {
-    cover: "./images/etherum.png",
-    hoverCover: "./images/etherum.png",
+    cover: "https://play-lh.googleusercontent.com/B7AUY7ot_MlyNAZZ2GfgxzuQFLY0pJEfslxyos0MoRsGgV6KV4sgtjV_kKzmTpl4JNnt",
+    hoverCover: "./images/about.webp",
     courseName:"Control"
    
 
   },
   {
-    cover: "./images/etherum.png",
-    hoverCover: "./images/etherum.png",
+    cover: "https://play-lh.googleusercontent.com/BElLU1It25aFTBK9jsU2GsaUAaiZ7pzCmqNwdkIPSXlPCaZEtuEAxwNEPvvMdhyzCA",
+    hoverCover: "./images/about.webp",
     courseName:"Battle Royal"
    
 
@@ -199,6 +224,8 @@ export const team = [
   {
     cover: "./images/team/t1.webp",
     name: "Chief Marketing Officer",
+    twitter:"https://twitter.com/ubongekanem222",
+    inst:"",
 
     
   },
@@ -213,8 +240,10 @@ export const team = [
     
   },
   {
-    cover: "./images/team/t1.webp",
-    name: "Chief Marketing Officer",
+    cover: "./images/team/t4.webp",
+    name: "Full Stack Developer",
+    inst:"https://instagram.com/silentstorm____?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
+    twitter:"https://www.linkedin.com/in/kunal-chauhan-717934222/",
     
   },
 ]
