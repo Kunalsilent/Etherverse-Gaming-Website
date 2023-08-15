@@ -12,7 +12,7 @@ const TeamCard = () => {
             <img src={val.cover} alt='' />
             <div className='overlay'>
            
-              <a href={val.inst} target="_blank" rel="noopener noreferrer"><i className='fab fa-instagram icon'></i></a>
+              <a href={val.linkd} target="_blank" rel="noopener noreferrer"><i className='fab fa-linkedin icon'></i></a>
               <a href={val.twitter}  target="_blank" rel="noopener noreferrer"><i className='fab fa-twitter icon'></i></a>
               
          

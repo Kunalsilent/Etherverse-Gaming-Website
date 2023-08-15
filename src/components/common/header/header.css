@@ -39,13 +39,7 @@ li {
     z-index: 1000;
 }
 
-.logo {
-  display: grid;
-  /* background-color: #3b5998; */
-  grid-column: 2/3;
-  justify-content: start;
-  align-items: center;
-}
+
 
 .menu-link {
   grid-column: 3/4;
@@ -82,18 +76,9 @@ li {
 
 /* ----------- Grid part ends ----------------- */
 
-.logo h2 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.logo h2 span {
-  font-size: 3.5rem;
-}
+
+
 
 .menu-link ul li {
   font-size: 1.8rem;
@@ -154,7 +139,7 @@ li {
   text-align: center;
 }
 .logo img {
-  height: 50px; /* Adjust the height as needed */
+  height: 20px; /* Adjust the height as needed */
 }
 /* responsive css style  */
 @media (max-width: 1080px) {
@@ -271,7 +256,7 @@ li {
 .logo img {
   width: 240px; /* Adjust this value to increase the width of the logo */
   height:250px; /* This maintains the aspect ratio */
-  padding-bottom: 120px !important;
+ 
 
 }
 
@@ -283,7 +268,8 @@ li {
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: 26rem;
+    
   }
 
   .logo h2 {
@@ -307,4 +293,72 @@ li {
   .hero-section h1 {
     font-size: 3.8rem;
   }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+  
+}
+
+.header-bg {
+background-color: rgba(0, 0, 0, 0.85);
+transition: 0.5s;
+}
+
+.nav-menu{
+  display: flex;
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+.nav-menu li a {
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin: 15px;
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  
+  .nav-menu{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      top:0;
+      left: -100%;
+      z-index: -3;
+      transition: 0.3s;
+
+  }
+  .nav-menu.active{
+      left: 0;
+  }
+
+  .nav-menu li {
+      padding: 1rem 0;
+  }
+  .nav-menu li a {
+      font-size: 2rem;
+  }
+   
+.hamburger {
+  display: initial;
+}
+.logo{
+  top: 2px;
+}
 }

@@ -225,25 +225,29 @@ export const team = [
     cover: "./images/team/t1.webp",
     name: "Chief Marketing Officer",
     twitter:"https://twitter.com/ubongekanem222",
-    inst:"",
+    work:"",
 
     
   },
   {
-    cover: "./images/team/t1.webp",
-    name: "Chief Marketing Officer",
+    cover: "./images/team/t2.webp",
+    work:"Ruchika Nagpal",
+    name: "Social Media Manager",
+    linkd:"https://www.linkedin.com/in/ruchika-nagpal-a79785242",
     
   },
   {
-    cover: "./images/team/t1.webp",
-    name: "Chief Marketing Officer",
+    cover: "./images/team/t3.webp",
+    name: "Founder & CEO",
+    work:"Ashish Janghel",
+    twitter:"https://twitter.com/AshishJanghel13",
     
   },
   {
     cover: "./images/team/t4.webp",
-    name: "Full Stack Developer",
-    inst:"https://instagram.com/silentstorm____?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
-    twitter:"https://www.linkedin.com/in/kunal-chauhan-717934222/",
+    name: "Community Growth Manager",
+    work:"Johansen Bilasho",
+    twitter:"https://twitter.com/Johansentz",
     
   },
 ]

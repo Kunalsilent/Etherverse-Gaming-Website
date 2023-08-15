@@ -9,7 +9,7 @@ const Footer = () => {
   <footer className="footer">
       <div className="container">
         <div className="footer-links">
-         <h1> Etherverse </h1>
+         <h1> MetaDogeUnity </h1>
         </div>
         <div className="footer-social">
           <a href="https://discord.gg/bz5nN247pb"><i className="fab fa-discord"></i></a>
